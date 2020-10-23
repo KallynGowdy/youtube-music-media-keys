@@ -7,7 +7,7 @@
     "scripts": {
         "build": "tsc",
         "watch": "tsc -w",
-        "pack": "npm run build && crx pack -o youtubeMediaKeys.crx"
+        "pack": "npm run build && crx pack ./extension -o youtube-music-media-keys.crx"
     },
     "repository": {
         "type": "git",

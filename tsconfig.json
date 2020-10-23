@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
-        "outDir": "./temp/",
-        "baseUrl": ".",
+        "outDir": "./extension/",
+        "baseUrl": "./src",
         "noImplicitAny": true,
         "module": "esNext",
         "esModuleInterop": true,

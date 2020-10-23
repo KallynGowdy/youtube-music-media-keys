@@ -1,2 +1,7 @@
 node_modules/
 temp/
+extension/contentScript.js
+extension/contentScript.js.map
+
+*.crx
+*.pem
