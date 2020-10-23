@@ -1,0 +1,13 @@
+{
+    "name": "YouTube Music Media Keys",
+    "version": "1.0",
+    "description": "Media Keys for YouTube Music",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://music.youtube.com/*"],
+            "js": ["temp/contentScript.js"],
+            "run_at": "document_idle"
+        }
+    ]
+}
